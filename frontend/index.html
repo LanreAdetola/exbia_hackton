@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battleship Multiplayer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Battleship Game</h1>
+  <div style="margin: 20px;">
+    <button id="singleBtn">Single Player</button>
+    <button id="multiBtn">Multiplayer</button>
+    <button id="restartBtn" style="display:none;">Restart</button>
+  </div>
+  <div id="scoreboard" style="margin: 10px; font-weight: bold;"></div>
+  <div id="game"></div>
+  <div id="status"></div>
+  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,20 +1,3 @@
-requirements to add to read me 
-
-implement a 5x5 game board
-support basic play 
-- ship placement (at least two ships per players )
--  turn based game play  (player vs computer )
--simple victory condition (eg sinking all opponents ships )
-- provide clear , user friendly cli prompts
-
-extra 
-score tracking 
-ascii art dispaly for game bords
-
-
-
-
-# exbia_hackton
 
 # exbia_hackton
 
