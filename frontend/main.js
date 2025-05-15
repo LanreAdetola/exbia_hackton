@@ -35,8 +35,7 @@ restartBtn.onclick = () => {
 
 document.getElementById('singleBtn').onclick = () => {
   mode = 'single';
-  playerScore = 0;
-  computerScore = 0;
+  // Do not reset playerScore or computerScore here
   updateScoreboard();
   restartBtn.style.display = '';
   startSinglePlayer();
